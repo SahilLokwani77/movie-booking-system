@@ -1,6 +1,6 @@
 #  CineBook – Movie Booking System
 
-CineBook is a full-stack movie ticket booking web application made using React, Node.js, Express, and MongoDB.
+CineBook is a frontend movie ticket booking web application made using React, Node.js, Express.
 
 This project allows users to browse movies, select theatres and seats, make bookings, and view booking history in a modern UI.
 

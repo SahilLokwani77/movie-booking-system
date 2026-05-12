@@ -57,4 +57,9 @@ By default, the backend expects MySQL credentials:
    *(The UI will run on `http://localhost:5173`)*
 
 ## Screenshots 📸
-*(You can add screenshots of your app here)*
+<img width="1405" height="902" alt="Screenshot 2026-05-12 135302" src="https://github.com/user-attachments/assets/fbec0223-80a8-4c52-af78-13a7c3bf1fac" />
+<img width="1407" height="916" alt="Screenshot 2026-05-12 135330" src="https://github.com/user-attachments/assets/b964228f-7e35-4424-b2db-8e7a79bcefb3" />
+<img width="1406" height="905" alt="Screenshot 2026-05-12 135345" src="https://github.com/user-attachments/assets/d26249c5-000e-43d0-b65d-cfd8d4ef6b59" />
+<img width="1407" height="905" alt="Screenshot 2026-05-12 135351" src="https://github.com/user-attachments/assets/2dfeb7a1-3dc7-40dc-b310-55ef64cb55a6" />
+<img width="1368" height="901" alt="Screenshot 2026-05-12 135403" src="https://github.com/user-attachments/assets/c5455628-e0fd-4980-a20b-37bfc33c0e40" />
+

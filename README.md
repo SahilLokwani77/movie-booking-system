@@ -1,78 +1,137 @@
-<<<<<<< HEAD
-# React + Vite
+#  CineBook – Movie Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineBook is a full-stack movie ticket booking web application made using React, Node.js, Express, and MongoDB.
 
-Currently, two official plugins are available:
+This project allows users to browse movies, select theatres and seats, make bookings, and view booking history in a modern UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* User Login & Register UI
+* Browse Movies
+* Theatre Selection
+* Seat Booking System
+* Payment UI
+* Booking Confirmation
+* My Bookings Section
+* MongoDB Database Integration
+* Responsive Dark Theme UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Movie Booking Management System 🎬
+##  Tech Stack
 
-A full-stack movie ticket booking application built with Spring Boot and React.
+### Frontend
 
-## Features ✨
-- **User Authentication**: Secure user registration and login.
-- **Movie Browsing**: View available movies, their posters, duration, and descriptions.
-- **Show Selection**: Choose from available showtimes for any given movie.
-- **Interactive Seat Layout**: Select your seats visually from an interactive grid.
-- **Dummy Payment Integration**: Simulate payment processing during the booking confirmation.
-- **Real-time Database**: Uses MySQL to store users, movies, shows, seats, and bookings securely.
+* React.js
+* Vite
+* JavaScript
+* CSS Inline Styling
 
-## Tech Stack 💻
-- **Backend**: Java 17, Spring Boot, Spring Data JPA, Hibernate, MySQL.
-- **Frontend**: React (Vite), Tailwind CSS, React Router, Axios.
-- **Testing**: Postman for APIs, Local end-to-end testing.
+### Backend
 
-## Prerequisites ⚙️
-- **Java Development Kit (JDK) 17**
-- **Node.js (v18+)**
-- **MySQL Server** (running locally on default port 3306)
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
 
-## Setup Instructions 🚀
+---
 
-### 1. Database Configuration
-Ensure your MySQL server is running. 
-You don't need to create the database manually. The application will automatically create a database named `movie_booking`.
-By default, the backend expects MySQL credentials:
-- Username: `root`
-- Password: `root`
-*(You can change these in `backend/src/main/resources/application.properties`)*
+## 📂 Project Structure
 
-### 2. Running the Backend (Spring Boot)
-1. Open a terminal and navigate to the `backend` folder:
-   ```bash
-   cd backend
-   ```
-2. Start the Spring Boot application:
-   ```bash
-   ./mvnw spring-boot:run
-   ```
-   *(The server will start on `http://localhost:8080`)*
+```bash
+movie-app/
+│
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   └── .env
+│
+├── src/
+│   ├── App.jsx
+│   └── components/
+│
+├── package.json
+└── README.md
+```
 
-### 3. Running the Frontend (React)
-1. Open a new terminal and navigate to the `frontend` folder:
-   ```bash
-   cd frontend
-   ```
-2. Install the necessary dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the Vite development server:
-   ```bash
-   npm run dev
-   ```
-   *(The UI will run on `http://localhost:5173`)*
+---
+
+## ⚙️ Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/SahilLokwani77/movie-booking-system.git
+```
+
+---
+
+### 2. Frontend Setup
+
+```bash
+cd movie-app
+npm install
+npm run dev
+```
+
+Frontend runs on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+### 3. Backend Setup
+
+Open another terminal:
+
+```bash
+cd backend
+npm install
+npx nodemon server.js
+```
+
+Backend runs on:
+
+```bash
+http://localhost:5000
+```
+
+---
+
+##  Environment Variables
+
+Create `.env` file inside backend folder:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+```
+
+---
+
+## 💾 Database
+
+MongoDB Atlas is used for storing booking data.
+
+Collections:
+
+* bookings
+
+---
+
+##  Future Improvements
+
+* Real Authentication
+* Razorpay/Stripe Payment Integration
+* Admin Dashboard
+* Movie API Integration
+* Email Ticket Confirmation
+
+---
 
 ## Screenshots 📸
 <img width="1405" height="902" alt="Screenshot 2026-05-12 135302" src="https://github.com/user-attachments/assets/fbec0223-80a8-4c52-af78-13a7c3bf1fac" />
@@ -81,4 +140,7 @@ By default, the backend expects MySQL credentials:
 <img width="1407" height="905" alt="Screenshot 2026-05-12 135351" src="https://github.com/user-attachments/assets/2dfeb7a1-3dc7-40dc-b310-55ef64cb55a6" />
 <img width="1368" height="901" alt="Screenshot 2026-05-12 135403" src="https://github.com/user-attachments/assets/c5455628-e0fd-4980-a20b-37bfc33c0e40" />
 
->>>>>>> 6c178ef423dc3bdefd369a9ac9645dee767280cd
+Made by Sahil Lokwani
+
+GitHub:
+https://github.com/SahilLokwani77
